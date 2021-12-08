@@ -23,7 +23,7 @@ export default function Home() {
       <main className="main">
         
         <div id="abachi-logo">
-          <a href="https://www.abachi.io/" target="_blank">
+          <a href="https://www.abachi.io/" target="_blank" rel="noreferrer">
             <img src="/abachi-logo.png" />
           </a>
         </div>
