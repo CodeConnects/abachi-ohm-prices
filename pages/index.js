@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <h1 className="title">
-          <a href="https://www.abachi.io/" target="_blank">Abachi.io (3²,3²) = (Ω²,Ω²)</a>
+          <a href="https://www.abachi.io/" target="_blank" rel="noreferrer">Abachi.io (3²,3²) = (Ω²,Ω²)</a>
         </h1>
 
         <p className="description">Enabling DeFi for the traditional world</p>
@@ -41,7 +41,7 @@ export default function Home() {
         </ApolloProvider>
 
         <footer className="footer">
-          <a href="https://www.abachi.io/" target="_blank"> Abachi.io </a> ~ Backed and Powered by <a href="https://www.olympusdao.finance/" target="_blank"> OHM </a>
+          <a href="https://www.abachi.io/" target="_blank" rel="noreferrer"> Abachi.io </a> ~ Backed and Powered by <a href="https://www.olympusdao.finance/" target="_blank" rel="noreferrer"> OHM </a>
         </footer>
 
       </main>
