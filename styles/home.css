@@ -91,6 +91,12 @@
   text-decoration: underline;
 }
 
+.footer .github-icon {
+  height: 20px;
+  vertical-align: middle;
+  padding: 0px 0px 2px 2px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
