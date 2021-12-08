@@ -8,5 +8,4 @@ Abachi DAO is powered & backed by OHM and (3,3) that accelerates value inflows i
 
 ## Dashboard
 
-OHM price, total treasury value, and backing per OHM are shown.
-
+Price per OHM, OHM treasury value, backing per OHM, OHM market cap and OHM total value locked are shown on the dashboard.
