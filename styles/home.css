@@ -44,6 +44,7 @@
   background: linear-gradient(270deg,#fff4f4 .41%,#ffbcbc 11.85%,#b6b2ed 42.14%,#fba994 70.87%,#fcefef);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .description {
