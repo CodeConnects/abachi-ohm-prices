@@ -6,6 +6,8 @@ Abachi DAO is powered & backed by OHM and (3,3) that accelerates value inflows i
 
 ## This Dashboard
 
+https://abachi.stickits.app/
+
 Price per OHM, OHM treasury value, backing per OHM, OHM market cap and OHM total value locked are shown on the dashboard.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
