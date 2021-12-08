@@ -41,7 +41,7 @@ export default function Home() {
         </ApolloProvider>
 
         <footer className="footer">
-          <a href="https://www.abachi.io/" target="_blank" rel="noreferrer"> Abachi.io </a> ~ Backed and Powered by <a href="https://www.olympusdao.finance/" target="_blank" rel="noreferrer"> OHM </a>
+          <a href="https://www.abachi.io/" target="_blank" rel="noreferrer"> Abachi.io </a> ~ Backed and Powered by <a href="https://www.olympusdao.finance/" target="_blank" rel="noreferrer"> OHM </a> ~ <a href="https://github.com/CodeConnects/abachi-ohm-prices" target="_blank" rel="noreferrer">GitHub <img className="footer-img github-icon" src="github-icon.png" alt="github icon" /></a>
         </footer>
 
       </main>
