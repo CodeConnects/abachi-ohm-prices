@@ -1,13 +1,25 @@
 import Head from 'next/head'
 import OHMData from '../components/ohmdata'
+import ABIData from '../components/abidata'
 
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
+import { RestLink } from 'apollo-link-rest'
 
 
-const client = new ApolloClient({
+const restLink = new RestLink({ 
+  uri: "https://abachi-data.stickits.app/?rest_route=/abachi-data/" 
+})
+
+const abiClient = new ApolloClient({
+  cache: new InMemoryCache(),
+  link: restLink
+});
+
+const ohmClient = new ApolloClient({
   uri: 'https://api.thegraph.com/subgraphs/name/drondin/olympus-graph',
   cache: new InMemoryCache()
 })
+
 
 export default function Home() {
   return (
@@ -34,10 +46,12 @@ export default function Home() {
 
         <p className="description">Enabling DeFi for the traditional world</p>
 
-        <ApolloProvider client={client}>
+        <ApolloProvider client={abiClient}>
+          <ABIData />
+        </ApolloProvider>
 
+        <ApolloProvider client={ohmClient}>
           <OHMData />
-
         </ApolloProvider>
 
         <footer className="footer">
