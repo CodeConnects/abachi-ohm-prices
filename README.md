@@ -1,10 +1,14 @@
 ## Abachi.io
 
-Enabling Defi for the Traditional World
+# Enabling Defi for the Traditional World
+
+*Building the rails to bridge DeFi and TradFi*
 
 Abachi exists to help bring traditional financial institutions and real-world users on chain. 
 
 Abachi DAO is powered & backed by OHM and (3,3) that accelerates value inflows into the Olympus DAO & Abachi ecosystem.
+
+Permissioned Lending in March 2022, Multichain Wallet in April 2022 and KYC as a Service in August 2022.
 
 ## This Dashboard
 
