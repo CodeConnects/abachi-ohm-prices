@@ -1,8 +1,8 @@
-## Abachi.io
+# Abachi.io
 
-# Enabling Defi for the Traditional World
+## Enabling Defi for the Traditional World
 
-*Building the rails to bridge DeFi and TradFi*
+### *Building the rails to bridge DeFi and TradFi*
 
 Abachi exists to help bring traditional financial institutions and real-world users on chain. 
 
