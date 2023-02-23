@@ -12,8 +12,6 @@ Permissioned Lending in March 2022, Multichain Wallet in April 2022 and KYC as a
 
 ## This Dashboard
 
-https://abachi.stickits.app/
-
 Price per OHM, OHM treasury value, backing per OHM, OHM market cap and OHM total value locked are shown on the dashboard.
 
 This is a [Next.js](https://nextjs.org/) project.
